@@ -12,7 +12,7 @@ export default function page() {
       <h1 className='text-center text-5xl'>
         Projects Showcase
       </h1>
-      <main className='flex flex-wrap gap-11 w-full mt-8'>
+      <main className='flex flex-wrap gap-11 w-full mt-8 justify-center'>
 
         {projects.map(pro =>
              <Link href={`projects/view/${pro.id}`}>
