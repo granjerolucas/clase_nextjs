@@ -23,7 +23,8 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className="bg-black p-10">
         <div className="container mx-auto">
-          <div className="bg-slate-900 rounded-[3rem] p-5">
+          {/* <div className="bg-slate-900 rounded-[3rem] p-5  bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-slate-600 via-slate-700 to-slate-900"> */}
+          <div className="bg-slate-900  rounded-[3rem] p-5 ">
             <div className="text-white">
               <div className="grid grid-cols-2   absolutex w-fullx  m-4 ">
                 <div className="max-w-xsx text-left">
@@ -44,7 +45,7 @@ export default function RootLayout({ children }) {
                   </p>
                 </div>
               </div>
-              <div className="px-20 ">{children}</div>
+              <div className="px-20 min-h-[30rem] ">{children}</div>
               <div className="grid grid-cols-3   absolutex w-fullx items-end  m-4 ">
                 <div className="max-w-xsx text-left">
                   <p>Local Time - 16.05</p>
