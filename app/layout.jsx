@@ -27,22 +27,22 @@ export default function RootLayout({ children }) {
               <div className="grid grid-cols-2   absolutex w-fullx  m-4 ">
                 <div className="max-w-xsx text-left">
                   <p>Longitude - 28.12312</p>
-                  <p>Latitude - 28.12312</p>
+                  <p>Latitude - 77.3273</p>
                 </div>
                 <div className="max-w-xsx text-right">
-                  <p>Longitude - 28.12312</p>
-                  <p>Latitude - 28.12312</p>
+                  <p>Chrome v119.0.0.0 </p>
+                  <p>Windows 10</p>
                 </div>
               </div>
               <div className="px-20 ">{children}</div>
               <div className="grid grid-cols-2   absolutex w-fullx  m-4 ">
                 <div className="max-w-xsx text-left">
-                  <p>Longitude - 28.12312</p>
-                  <p>Latitude - 28.12312</p>
+                  <p>Local time - 16:05</p>
+                  <p>Time Spend - 00:05</p>
                 </div>
                 <div className="max-w-xsx text-right">
-                  <p>Longitude - 28.12312</p>
-                  <p>Latitude - 28.12312</p>
+                  <p>122.16153938</p>
+                  <p>Peru, Brasil and Bolivia</p>
                 </div>
               </div>
             </div>
