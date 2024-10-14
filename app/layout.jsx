@@ -1,5 +1,6 @@
 import localFont from "next/font/local";
 import "./globals.css";
+import Link from "next/link";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -35,10 +36,18 @@ export default function RootLayout({ children }) {
                 </div>
               </div>
               <div className="px-20 ">{children}</div>
-              <div className="grid grid-cols-2   absolutex w-fullx  m-4 ">
+              <div className="grid grid-cols-3   absolutex w-fullx  m-4 ">
                 <div className="max-w-xsx text-left">
                   <p>Longitude - 28.12312</p>
                   <p>Latitude - 28.12312</p>
+                </div>
+                <div>
+                  <div className="text-center rounded-[4rem] bg-slate-800 py-5 px-7 flex justify-between">
+                    <Link className="text-2xl text-center" href="/">Home</Link>
+                    <Link className="text-2xl text-center" href="/projects">Proyects</Link>
+                    <Link className="text-2xl text-center" href="/about">About</Link>
+                    <Link className="text-2xl text-center" href="/contact">Contact</Link>
+                  </div>
                 </div>
                 <div className="max-w-xsx text-right">
                   <p>Longitude - 28.12312</p>
