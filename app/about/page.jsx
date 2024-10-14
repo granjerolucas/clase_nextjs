@@ -19,8 +19,8 @@ Nome do Projeto</h2>
           <div className="mb-4">
             <h3 className="font-semibold mb-2">Tecnologias Utilizadas:</h3>
             <div className="flex flex-wrap gap-2">
-              <span className="bg-gray-700 px-3 py-1 rounded-full text-sm">Next.js</span>
-              <span className="bg-gray-700 px-3 py-1 rounded-full text-sm">React</span>
+              <span className="bg-gray-700 px-3 py-1 rounded-full text-sm"></span>
+              <span className="bg-gray-700 px-3 py-1 rounded-full text-sm"></span>
             </div>
           </div>
           <a href="#" className="text-blue-400 hover:underline">Ver mais detalhes →</a>
