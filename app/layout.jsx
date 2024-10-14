@@ -27,31 +27,56 @@ export default function RootLayout({ children }) {
             <div className="text-white">
               <div className="grid grid-cols-2   absolutex w-fullx  m-4 ">
                 <div className="max-w-xsx text-left">
-                  <p>Longitude - 28.12312</p>
-                  <p>Latitude - 28.12312</p>
+                  <p>
+                    Longitude - <span className="font-bold">28.12312</span>
+                  </p>
+                  <p>
+                    Latitude - <span className="font-bold">28.12312</span>
+                  </p>
                 </div>
                 <div className="max-w-xsx text-right">
-                  <p>Longitude - 28.12312</p>
-                  <p>Latitude - 28.12312</p>
+                  <p>
+                    <span className="font-bold">Chrome v119.0.0.0</span> -
+                    Browser
+                  </p>
+                  <p>
+                    <span className="font-bold">Window 10</span> - OS
+                  </p>
                 </div>
               </div>
               <div className="px-20 ">{children}</div>
-              <div className="grid grid-cols-3   absolutex w-fullx  m-4 ">
+              <div className="grid grid-cols-3   absolutex w-fullx items-end  m-4 ">
                 <div className="max-w-xsx text-left">
-                  <p>Longitude - 28.12312</p>
-                  <p>Latitude - 28.12312</p>
+                  <p>Local Time - 16.05</p>
+                  <p>Time Spend - 00:05</p>
                 </div>
                 <div>
-                  <div className="text-center rounded-[4rem] bg-slate-800 py-5 px-7 flex justify-between">
-                    <Link className="text-2xl text-center" href="/">Home</Link>
-                    <Link className="text-2xl text-center" href="/projects">Proyects</Link>
-                    <Link className="text-2xl text-center" href="/about">About</Link>
-                    <Link className="text-2xl text-center" href="/contact">Contact</Link>
+                  <div className="text-center rounded-[4rem] bg-slate-800 py-5 px-7 flex justify-between bottom-[-4rem] relative">
+                    <Link className="text-1xl text-center px-2" href="/">
+                      Home
+                    </Link>
+                    <Link
+                      className="text-1xl text-center px-2"
+                      href="/projects"
+                    >
+                      Proyects
+                    </Link>
+                    <Link className="text-1xl text-center px-2" href="/about">
+                      About
+                    </Link>
+                    <Link className="text-1xl text-center px-2" href="/contact">
+                      Contact
+                    </Link>
                   </div>
                 </div>
                 <div className="max-w-xsx text-right">
-                  <p>Longitude - 28.12312</p>
-                  <p>Latitude - 28.12312</p>
+                  <p>
+                    <span className="font-bold">122.151.153.939</span> - IP
+                  </p>
+                  <p>
+                    <span className="font-bold">Chrome v119.0.0.0</span> -
+                    Browser
+                  </p>
                 </div>
               </div>
             </div>
